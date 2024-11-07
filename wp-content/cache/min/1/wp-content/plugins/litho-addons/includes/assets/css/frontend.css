@@ -1,0 +1,110 @@
+.single-sectionbuilder .header-common-wrapper.left-menu-classic,
+.single-sectionbuilder .header-common-wrapper.left-menu-modern {
+    position: absolute;
+    width: 100%
+}
+
+.elementor-widget-litho-content-block .elementor-image-box-content {
+    width: 100%
+}
+
+.elementor-widget-litho-icon-box .elementor-icon-box-wrapper,
+.elementor-widget-litho-icon-box .litho-image-box-wrapper {
+    text-align: center
+}
+
+@media (min-width:768px) {
+    .elementor-widget-litho-content-block.elementor-position-left .elementor-image-box-wrapper,
+    .elementor-widget-litho-content-block.elementor-position-right .elementor-image-box-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+    .elementor-widget-litho-content-block.elementor-position-right .elementor-image-box-wrapper {
+        text-align: right;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse
+    }
+    .elementor-widget-litho-content-block.elementor-position-left .elementor-image-box-wrapper {
+        text-align: left;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+    .elementor-widget-litho-content-block.elementor-position-top .elementor-image-box-img {
+        margin: auto
+    }
+    .elementor-widget-litho-content-block.elementor-vertical-align-top .elementor-image-box-wrapper {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start
+    }
+    .elementor-widget-litho-content-block.elementor-vertical-align-middle .elementor-image-box-wrapper {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+    .elementor-widget-litho-content-block.elementor-vertical-align-bottom .elementor-image-box-wrapper {
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end
+    }
+}
+
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated,
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 0 15px
+}
+
+.elementor-section.parallax,
+.parallax .elementor-background-overlay {
+    transition: none !important
+}
+
+.elementor-element-edit-mode.elementor-hidden-tablet .hamburger-menu-wrapper .elementor-template-edit-cover,
+.elementor-element-edit-mode.elementor-hidden-phone .hamburger-menu-wrapper .elementor-template-edit-cover,
+.elementor-element-edit-mode.elementor-hidden-tablet .hamburger-menu-wrapper .hamburger-menu,
+.elementor-element-edit-mode.elementor-hidden-phone .hamburger-menu-wrapper .hamburger-menu {
+    display: none
+}
+
+.elementor-html body.single-sectionbuilder.navbar-collapse-show-after .navbar-collapse {
+    z-index: 99
+}
+
+.elementor-html body.single-sectionbuilder .navbar-toggler {
+    z-index: 999
+}
+
+.elementor-editor-active .edit-litho-section {
+    display: none
+}
+
+.elementor-editor-active .grid.grid-6col li,
+.elementor-editor-active .grid.grid-5col li,
+.elementor-editor-active .grid.grid-4col li,
+.elementor-editor-active .grid.grid-3col li,
+.elementor-editor-active .grid.grid-2col li {
+    float: left
+}
+
+.litho-elementor-visible {
+    visibility: hidden
+}
+
+@media (max-width:1024px) {
+    .elementor-editor-active .navbar-collapse {
+        top: 72px !important
+    }
+}
+
+@media (max-width:767px) {
+    .elementor-widget-litho-content-block .elementor-image-box-img {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 15px
+    }
+}
